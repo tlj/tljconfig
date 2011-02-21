@@ -122,9 +122,6 @@ endtry
 
 set ffs=unix,dos,mac "Default file types
 
-let g:syntastic_auto_jump=0
-
-
 """"""""""""""""""""""""""""""
 " => Statusline
 """"""""""""""""""""""""""""""
@@ -132,7 +129,7 @@ let g:syntastic_auto_jump=0
 set laststatus=2
 
 " Format the statusline
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c\ %{fugitive#statusline()}\ %{SyntasticStatuslineFlag()}
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c\ %{fugitive#statusline()}
 
 set cmdheight=2
 

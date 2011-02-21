@@ -30,7 +30,6 @@ get_bundle scrooloose nerdtree
 get_bundle wincent Command-T
 get_bundle vim-scripts ManPageView
 get_bundle fholgado minibufexpl.vim
-get_bundle vim-scripts MRU 
 get_bundle vim-scripts php-doc
 get_bundle ervandew supertab
 get_bundle itspriddle vim-jquery
