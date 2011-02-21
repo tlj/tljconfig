@@ -37,6 +37,7 @@ get_bundle cschlueter vim-wombat
 get_bundle scrooloose syntastic
 get_bundle msanders snipmate.vim
 get_bundle scrooloose snipmate-snippets
+get_bundle vim-scripts vimwiki
 
 echo "Making Command-T"
 cd Command-T/ruby/command-t
