@@ -1,0 +1,9 @@
+SCRIPTPATH=`dirname $0`
+echo "SCRIPTPATH $SCRIPTPATH"
+
+rm -rf ~/.vimrc ~/vim/vimrc
+
+ln -s $SCRIPTPATH/.vim/vimrc ~/.vimrc
+ln -s $SCRIPTPATH/.vim ~/.vim
+
+bash ~/.vim/update_bundles
