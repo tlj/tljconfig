@@ -39,9 +39,13 @@ get_bundle msanders snipmate.vim
 get_bundle scrooloose snipmate-snippets
 get_bundle vim-scripts vimwiki
 get_bundle tlj Better-CSS-Syntax-for-Vim
+get_bundle vim-scripts Nazca
+get_bundle nathanaelkane vim-indent-guides
 
 # under consideration
 get_bundle majutsushi tagbar
+get_bundle othree fecompressor.vim
+get_bundle othree javascript-syntax.vim
 
 # build
 
