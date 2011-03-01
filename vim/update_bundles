@@ -38,6 +38,12 @@ get_bundle scrooloose syntastic
 get_bundle msanders snipmate.vim
 get_bundle scrooloose snipmate-snippets
 get_bundle vim-scripts vimwiki
+get_bundle tlj Better-CSS-Syntax-for-Vim
+
+# under consideration
+get_bundle majutsushi tagbar
+
+# build
 
 echo "Making Command-T"
 cd Command-T/ruby/command-t
