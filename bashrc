@@ -59,6 +59,12 @@ git_prompt_info () {
     else
       printf "(%s) " "${b##refs/heads/}$r$d"
     fi
+    
+    br="$(git branch | grep ^* | cut -d \  -f2-)"
+    if [ "$br" == "(no branch)" ]; then
+        #printf "OHOOOHOHOHOHOHO NOOOOOOJHOJOJOOHOHO"        
+        printf "\033[01;31m NO BRANCH ! NO BRANCH ! NO BRANCH !\033[00m "
+    fi
   fi
 }
 
