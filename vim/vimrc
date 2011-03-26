@@ -23,6 +23,8 @@ set guioptions-=M " disable gvim menu bar
 
 set foldmethod=manual
 
+set iskeyword+=_
+
 " visual move - ALT-j, ALT-k
 nnoremap <A-j> :m+<CR>==
 nnoremap <A-k> :m-2<CR>==
@@ -140,7 +142,8 @@ set ffs=unix,dos,mac "Default file types
 set laststatus=2
 
 " Format the statusline
-set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c\ %{fugitive#statusline()}
+" set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c\ %{fugitive#statusline()}
+set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{CurDir()}%h\ \ \ Line:\ %l/%L:%c
 
 set cmdheight=2
 
@@ -172,8 +175,8 @@ let g:miniBufExplorerMoreThanOne = 2
 let g:miniBufExplModSelTarget = 0
 let g:miniBufExplUseSingleClick = 1
 let g:miniBufExplMapWindowNavVim = 1
-" let g:miniBufExplVSplit = 25
-"let g:miniBufExplSplitBelow=1
+let g:miniBufExplVSplit = 25
+let g:miniBufExplSplitBelow=1
 
 let g:bufExplorerSortBy = "name"
 

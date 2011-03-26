@@ -46,6 +46,7 @@ get_bundle nathanaelkane vim-indent-guides
 get_bundle majutsushi tagbar
 get_bundle othree fecompressor.vim
 get_bundle othree javascript-syntax.vim
+get_bundle skammer vim-css-color
 
 # build
 
