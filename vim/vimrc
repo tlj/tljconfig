@@ -111,8 +111,10 @@ if has("gui_running")
   " colorscheme peaksea
   " set nonu
 else
+  colorscheme default
   if $TERM =~ '^xterm'
     set t_Co=256 
+    colorscheme wombat256
   elseif $TERM =~ '^screen-bce'
     set t_Co=256            " just guessing
   elseif $TERM =~ '^rxvt'
@@ -122,7 +124,6 @@ else
   else
     set t_Co=16
   endif
-  colorscheme default
   set background=dark
   " set nonu
 endif
@@ -395,7 +396,6 @@ set wildignore+=*.o,*.obj,.git,*.pyc
 " noremap <Leader>m mmHmt:%s/<C-V><cr>//ge<cr>'tzt'm
 " map <leader>bb :cd ..<cr>
 
-
 """"""""""""""""""""""""""""""
 " => MRU plugin
 """"""""""""""""""""""""""""""
@@ -404,3 +404,12 @@ map <leader>f :MRU<CR>
 
 " VIMWIKI
 let g:vimwiki_list = [{'path': '~/.vim/vimwiki/'}]
+
+" EesyMotion
+let EasyMotion_do_mapping = 0
+nnoremap <silent> <Leader>w       :call EasyMotionWB(0, 0)<CR>
+vnoremap <silent> <Leader>w  :<C-U>call EasyMotionWB(1, 0)<CR>
+
+nnoremap <silent> <Leader>b       :call EasyMotionWB(0, 1)<CR>
+vnoremap <silent> <Leader>b  :<C-U>call EasyMotionWB(1, 1)<CR>
+

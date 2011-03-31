@@ -13,40 +13,41 @@ get_bundle() {
   )
 }
 
-get_bundle pangloss vim-javascript
-get_bundle leshill vim-json
+#get_bundle pangloss vim-javascript
+#get_bundle leshill vim-json
 get_bundle tpope vim-pathogen
 get_bundle tpope vim-haml
-get_bundle tpope vim-markdown
-get_bundle tpope vim-surround
+#get_bundle tpope vim-markdown
+#get_bundle tpope vim-surround
 get_bundle tpope vim-fugitive
-get_bundle tpope vim-vividchalk
-get_bundle duff vim-bufonly
-get_bundle godlygeek tabular
-get_bundle scrooloose nerdcommenter
-get_bundle wgibbs vim-irblack
-get_bundle vim-scripts bufkill.vim
+#get_bundle tpope vim-vividchalk
+#get_bundle duff vim-bufonly
+#get_bundle godlygeek tabular
+#get_bundle scrooloose nerdcommenter
+#get_bundle wgibbs vim-irblack
+#get_bundle vim-scripts bufkill.vim
 get_bundle scrooloose nerdtree
 get_bundle wincent Command-T
 get_bundle vim-scripts ManPageView
 get_bundle fholgado minibufexpl.vim
-get_bundle vim-scripts php-doc
+#get_bundle vim-scripts php-doc
 get_bundle ervandew supertab
-get_bundle itspriddle vim-jquery
-get_bundle cschlueter vim-wombat
-get_bundle scrooloose syntastic
+#get_bundle itspriddle vim-jquery
+#get_bundle cschlueter vim-wombat
+#get_bundle scrooloose syntastic
 get_bundle msanders snipmate.vim
 get_bundle scrooloose snipmate-snippets
-get_bundle vim-scripts vimwiki
-get_bundle tlj Better-CSS-Syntax-for-Vim
-get_bundle vim-scripts Nazca
-get_bundle nathanaelkane vim-indent-guides
+#get_bundle vim-scripts vimwiki
+#get_bundle tlj Better-CSS-Syntax-for-Vim
+#get_bundle vim-scripts Nazca
+#get_bundle nathanaelkane vim-indent-guides
 
 # under consideration
-get_bundle majutsushi tagbar
-get_bundle othree fecompressor.vim
-get_bundle othree javascript-syntax.vim
-get_bundle skammer vim-css-color
+#get_bundle majutsushi tagbar
+#get_bundle othree fecompressor.vim
+#get_bundle othree javascript-syntax.vim
+#get_bundle vim-scripts camelcasemotion
+get_bundle Lokaltog vim-easymotion
 
 # build
 
